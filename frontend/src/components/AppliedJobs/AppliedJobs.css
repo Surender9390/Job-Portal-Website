@@ -1,0 +1,3 @@
+/* src/components/AppliedJobs/AppliedJobs.css */
+.applied-container { max-width: 900px; margin: 50px auto; }
+.applied-card { background: #f8f8f8; padding: 15px; border-radius: 8px; margin-bottom: 15px; }

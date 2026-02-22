@@ -1,0 +1,65 @@
+/* src/components/About/About.css */
+
+.about-container {
+  min-height: 100vh;
+  /*background-image: url("../../assets/about-bg.jpg"); /* add your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-overlay {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 60px 40px;
+  border-radius: 12px;
+  max-width: 1000px;
+  width: 90%;
+  color: #ffffff;
+}
+
+.about-overlay h1 {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.about-intro {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #e0e0e0;
+}
+
+.about-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.about-box {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 25px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.about-box:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.about-box h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #ffd369;
+}
+
+.about-box p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #f1f1f1;
+}

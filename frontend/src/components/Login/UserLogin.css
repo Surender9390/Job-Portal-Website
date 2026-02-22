@@ -1,0 +1,74 @@
+/* Full page background */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f2f5f9;
+}
+
+/* Login box */
+.login-container form {
+  width: 340px;
+  background: #ffffff;
+  padding: 30px 28px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Title */
+.login-container h2 {
+  margin-bottom: 18px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input fields */
+.login-container input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.login-container input:focus {
+  outline: none;
+  border-color: #0a66c2;
+  box-shadow: 0 0 0 2px rgba(10, 102, 194, 0.2);
+}
+
+/* Login button */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #0a66c2;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background: #084f9c;
+}
+
+/* Remove <br> extra spacing issues */
+.login-container br {
+  display: none;
+}
+
+/* Mobile */
+@media (max-width: 400px) {
+  .login-container form {
+    width: 90%;
+  }
+}

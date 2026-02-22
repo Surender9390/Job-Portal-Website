@@ -1,0 +1,26 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.auth-card {
+  width: 260px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.auth-card:hover {
+  transform: translateY(-8px);
+}
+
+.auth-card.admin {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: purple;
+}

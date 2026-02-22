@@ -1,0 +1,27 @@
+/* src/components/Jobs/JobApply.css */
+.jobapply-container {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.jobapply-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobapply-container input,
+.jobapply-container button {
+  margin: 8px 0;
+  padding: 10px;
+}
+
+.jobapply-container button {
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,53 @@
+/* src/components/PostJob/PostJob.css */
+
+.postjob-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.postjob-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.postjob-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.postjob-form input,
+.postjob-form select,
+.postjob-form textarea {
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.postjob-form input:focus,
+.postjob-form select:focus,
+.postjob-form textarea:focus {
+  border-color: #007bff;
+}
+
+.postjob-form button {
+  background: #007bff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.postjob-form button:hover {
+  background: #0056b3;
+}
